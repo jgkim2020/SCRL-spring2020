@@ -73,7 +73,7 @@ def run_linear_programming(mdp):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Problem Set #1. Problem #3')
     algo_list = ['VI', 'PI', 'LP']
-    parser.add_argument('--algo_type', type=str, default='VI',
+    parser.add_argument('--algo_type', type=str,
         help="Specify an algorithm. Available algorithms are: %s"%algo_list
     )
     args = parser.parse_args()
