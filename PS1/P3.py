@@ -94,4 +94,4 @@ if __name__ == '__main__':
     elif args.algo_type == 'LP':
         run_linear_programming(mdp)
     else:
-        raise ValueError('Specify an algorithm. Available algorithms are: %s'%algo_list)
+        raise ValueError('Specify an algorithm (--algo_type). Available algorithms are: %s'%algo_list)
